@@ -1,12 +1,8 @@
 
 const shortid = require("shortid");
-
-
 var index =0;
-
 var list=[];
 for(var i=0;i<100000000000;i++) {
-
   list.push(shortid.generate());
   index++;
   console.log("the count is",index,"the insert count is:",list.length);
