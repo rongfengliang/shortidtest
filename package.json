@@ -2,4 +2,7 @@
   "dependencies": {
     "shortid": "^2.2.8"
   }
+  "scripts":{
+   "run":"node app.js"
+  }
 }
