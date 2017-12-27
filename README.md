@@ -11,5 +11,5 @@
  ```
  or
  ```
-  yarn run 
+  yarn run start
  ```
