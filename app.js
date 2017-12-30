@@ -9,4 +9,7 @@ for(var i=0;i<100000000000;i++) {
   if (list.length!=index) {
    console.log("there is some key is repeated please checj it")
  }
+  if(list.length==100){
+   process.exit();
+  }
 }
