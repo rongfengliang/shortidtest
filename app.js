@@ -2,6 +2,8 @@
 const shortid = require("shortid");
 var index =0;
 var list=[];
+console.log(shortid.generate());
+function demo(){
 for(var i=0;i<100;i++) {
   list.push(shortid.generate());
   index++;
@@ -12,4 +14,5 @@ for(var i=0;i<100;i++) {
   if(list.length==100){
    process.exit();
   }
+}
 }
